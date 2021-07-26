@@ -1,0 +1,29 @@
+img {
+    
+    height: 5rem;
+    width: auto;
+    
+}
+
+.text {
+    padding-left: 0rem;
+    box-align: left;
+    text-align: center;
+
+
+}
+
+.btn-outline-primary {
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-color: #5B23E1!important;
+    color:#5B23E1!important;
+
+    
+}
+
+.btn-outline-primary:hover {
+    background-color: #5B23E1!important;; /* Green */
+    color: white!important;
+  }
+

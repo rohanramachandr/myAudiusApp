@@ -1,5 +1,6 @@
 header {
     background-color: #5B23E1;
+    
 }
 header h1, header h2 {
     margin: 0;
@@ -23,16 +24,48 @@ header img {
     
 }
 
-
-
 footer {
     background-color: #5B23E1;
+    
     color: #ffff;
-    position: fixed;
-    width: 100%;
-    bottom:0;
-
-    
-    
+ 
 
 }
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+ 
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    
+  }
+  
+  
+#footer {
+    /* Mobile/Tablet styles (xs, sm) */
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    #footer {
+        /* Tablet/Desktop styles (md, lg) */
+        position:absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+  
+  
+
+
+
+
+
+
+
+
