@@ -26,29 +26,25 @@ header img {
 
 footer {
     background-color: #5B23E1;
-    
+  
     color: #ffff;
- 
+
 
 }
 
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
- 
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-    
-  }
+footer .container {
+    display: inline-block;
+}
+
+
   
   
 #footer {
     /* Mobile/Tablet styles (xs, sm) */
-    position:static;
+ 
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 @media (min-width: 992px) {
@@ -56,8 +52,11 @@ footer {
         /* Tablet/Desktop styles (md, lg) */
         position:absolute;
         bottom: 0;
+        left:0;
         width: 100%;
+        text-align: left
     }
+  
 }
   
   

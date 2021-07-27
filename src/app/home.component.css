@@ -1,13 +1,17 @@
 img {
-    
-    height: 5rem;
+    margin-top: 0.5rem;
+    height: 12rem;
     width: auto;
     
 }
 
-.text {
-    padding-left: 0rem;
-    box-align: left;
+#profile:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+#text {
+
     text-align: center;
 
 

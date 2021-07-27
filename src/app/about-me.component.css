@@ -1,4 +1,4 @@
-.container {
+main .container {
     display: inline-block;
 }
 
@@ -13,12 +13,8 @@
 }
 
 
-.card.grow {
-    
 
-    
-}
 .card:hover {
       transform: scale(1.1);
       transition: all .2s ease-in-out;
-    }
+}
