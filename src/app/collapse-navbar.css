@@ -1,4 +1,10 @@
 .navbar-header{
     margin-left:5px;
     width:100%;
+    
   }
+
+.navbar-nav > .active > a { 
+    color: blueviolet ; 
+}
+

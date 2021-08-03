@@ -1,5 +1,31 @@
+body {
+display: flex;
+flex-direction: column;
+min-height: 110vh;
+
+background: url("../assets/images/bg-pattern.png"), #7b4397;
+background: url("../assets/images/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #2b0015);
+background: url("../assets/images/bg-pattern.png"), linear-gradient(to left, #7b4397, #530b29);
+
+
+}
+
+footer {
+    margin-top: auto;
+    background-color: #232424;
+    color: #ffff;
+    padding: 1rem;
+    
+}
+
+/* footer {
+    margin-top: auto;
+    min-height: 10rem;
+    background-color: #232424;
+  } */
+
 header {
-    background-color: #5B23E1;
+    background-color: #232424;
     
 }
 header h1, header h2 {
@@ -24,41 +50,14 @@ header img {
     
 }
 
-footer {
-    background-color: #5B23E1;
-  
-    color: #ffff;
 
 
-}
 
-
-footer .container {
-    display: inline-block;
-}
 
 
   
   
-#footer {
-    /* Mobile/Tablet styles (xs, sm) */
- 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-@media (min-width: 992px) {
-    #footer {
-        /* Tablet/Desktop styles (md, lg) */
-        position:absolute;
-        bottom: 0;
-        left:0;
-        width: 100%;
-        text-align: left
-    }
-  
-}
-  
+
   
 
 
