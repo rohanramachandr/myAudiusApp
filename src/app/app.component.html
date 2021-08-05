@@ -20,29 +20,8 @@
   </header>
 
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
-    
-    <button class="navbar-toggler"
-    type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
-  &#9776;
-</button>
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a *ngIf="this.home" style="color:blueviolet" class="nav-link" routerLink="/home" (click)="isMenuCollapsed = true">Home</a>
-          <a *ngIf="!this.home" class="nav-link" routerLink="/home" (click)="onClick('home')">Home</a>
-        </li>
-        <li class="nav-item">
-          <a *ngIf="this.aboutMe" style="color:blueviolet" class="nav-link" routerLink="/about-me" (click)="isMenuCollapsed = true">About Me</a>
-          <a *ngIf="!this.aboutMe" class="nav-link" routerLink="/about-me" (click)="onClick('about-me')">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a *ngIf="this.contactMe" style="color:blueviolet" class="nav-link" routerLink="/contact-me" (click)="isMenuCollapsed = true">Contact Me</a>
-          <a *ngIf="!this.contactMe"class="nav-link" routerLink="/contact-me" (click)="onClick('contact-me')">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  
+  <ngbd-collapse-navbar></ngbd-collapse-navbar>
   
   <router-outlet></router-outlet>
 
@@ -51,24 +30,27 @@
 
       <div class="row">
         <div class="col-12 col-md-6 col-xl-3">
-          <h4>General</h4>
+          <h6>General</h6>
           <ul>
             <li>
-              <a style="color:white" href="/about-me">About Me</a>
+              <a  style="color:white"  routerLink="/home">Home</a>
             </li>
             <li>
-              <a style="color:white" href="/contact-me">Contact Me</a>
+              <a   style="color:white" routerLink="/about-me">About Me</a>
+            </li>
+            <li>
+              <a  style="color:white"  routerLink="/contact-me">Contact Me</a>
             </li>
           </ul>
         </div> <!-- end column -->
         <div class="col-12 col-md-6 col-xl-3">
-          <h4>Social</h4>
+          <h6>Social</h6>
           <ul>
             <li>
-              <a style="color:white" href="https://www.linkedin.com/in/rohan-ramachandran-12b382152">LinkedIn</a>
+              <a style="color: white" href="https://www.linkedin.com/in/rohan-ramachandran-12b382152">LinkedIn</a>
             </li>
             <li>
-              <a style="color: white" href="https://github.com/rohanramachandr">Github</a>
+              <a  style="color:white" href="https://github.com/rohanramachandr">Github</a>
             </li>
           </ul>
         </div> <!-- end column -->

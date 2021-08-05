@@ -20,7 +20,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'myAudiusApp'`, () => {
+  it(`should have as title 'myGallifyApp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     console.log("title", app.title);
