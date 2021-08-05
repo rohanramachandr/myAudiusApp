@@ -1,0 +1,22 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 20px; /* Added */
+    
+    
+
+}
+
+.card .img {
+    width: .005rem;
+    height: auto;
+
+}
+
+
+
+

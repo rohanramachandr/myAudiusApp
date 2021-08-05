@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({selector: 'ngbd-collapse-navbar', templateUrl: './collapse-navbar.html', styleUrls: ['./collapse-navbar.css']})
 export class NgbdCollapseNavbar {
-  // Step 1:
-  // Create a property to track whether the menu is open.
-  // Start with the menu collapsed so that it does not
-  // appear initially when the page loads on a small screen!
+ 
   public isMenuCollapsed = true;
+
+  constructor(public router: Router ) {}
+
 }

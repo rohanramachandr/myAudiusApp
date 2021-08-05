@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgbdCollapseNavbar } from './collapse-navbar';
-import { HomeComponent } from './home.component';
-import { AboutMeComponent } from './about-me.component';
-import { ContactMeComponent } from './contact-me.component';
+import { NgbdCollapseNavbar } from './navbar/collapse-navbar';
+import { HomeComponent } from './home/home.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 
 @NgModule({
@@ -17,9 +17,6 @@ import { ContactMeComponent } from './contact-me.component';
     HomeComponent,
     AboutMeComponent,
     ContactMeComponent
-
-
-
   ],
   imports: [
     BrowserModule,

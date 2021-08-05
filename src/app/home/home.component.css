@@ -1,0 +1,23 @@
+img {
+    margin-top: 0.5rem;
+    height: 15rem;
+    width: auto;
+    
+}
+
+#profile:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+#text {
+
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
