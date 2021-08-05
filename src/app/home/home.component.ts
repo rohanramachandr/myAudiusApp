@@ -8,8 +8,6 @@ import { ActivatedRoute, Router } from "@angular/router";
     templateUrl: './home.component.html',
     styleUrls: ['home.component.css'],
     encapsulation: ViewEncapsulation.None,
-    
-
 })
 export class HomeComponent {
 
@@ -21,6 +19,5 @@ export class HomeComponent {
         console.log("learn about me")
         this.navigate.emit("about-me");
         this.router.navigate(['/about-me']);
-
     }
 }

@@ -17,9 +17,6 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     HomeComponent,
     AboutMeComponent,
     ContactMeComponent
-
-
-
   ],
   imports: [
     BrowserModule,

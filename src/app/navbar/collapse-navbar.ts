@@ -6,9 +6,6 @@ export class NgbdCollapseNavbar {
  
   public isMenuCollapsed = true;
 
-
-  constructor(public router: Router ) {
-
-  }
+  constructor(public router: Router ) {}
 
 }
