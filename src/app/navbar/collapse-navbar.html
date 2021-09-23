@@ -6,19 +6,19 @@
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a *ngIf="this.router.url.localeCompare('/home') == 0" style="color:blueviolet" class="nav-link"
+        <a *ngIf="this.router.url.localeCompare('/home') == 0" style="color:rgb(0, 140, 255)" class="nav-link"
           routerLink="/home" (click)="isMenuCollapsed = true">Home</a>
         <a *ngIf="this.router.url.localeCompare('/home') != 0" class="nav-link" routerLink="/home"
           (click)="isMenuCollapsed = true">Home</a>
       </li>
       <li class="nav-item">
-        <a *ngIf="this.router.url.localeCompare('/about-me') == 0" style="color:blueviolet" class="nav-link"
+        <a *ngIf="this.router.url.localeCompare('/about-me') == 0" style="color:rgb(0, 140, 255)" class="nav-link"
           routerLink="/about-me" (click)="isMenuCollapsed = true">About Me</a>
         <a *ngIf="this.router.url.localeCompare('/about-me') != 0" class="nav-link" routerLink="/about-me"
           (click)="isMenuCollapsed = true">About Me</a>
       </li>
       <li class="nav-item">
-        <a *ngIf="this.router.url.localeCompare('/contact-me') == 0" style="color:blueviolet" class="nav-link"
+        <a *ngIf="this.router.url.localeCompare('/contact-me') == 0" style="color:rgb(0, 140, 255)" class="nav-link"
           routerLink="/contact-me" (click)="isMenuCollapsed = true">Contact Me</a>
         <a *ngIf="this.router.url.localeCompare('/contact-me') != 0" class="nav-link" routerLink="/contact-me"
           (click)="isMenuCollapsed = true">Contact Me</a>
